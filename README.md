@@ -5,8 +5,8 @@ Running TJAPlayer3 on Linux.
 
 The following versions of TJAPlayer can be run using [Lutris](https://lutris.net/):
 
-- Versions of [OpenTaiko](https://github.com/0auBSQ/OpenTaiko/blob/main/README-EN.md) that include [commit #140 ("Remove dependency on SlimDX")](https://github.com/0auBSQ/OpenTaiko/commit/c6d1b8f443cb6c82bf1df5d1140040fdcc32b2de). This commit is not included in [official releases](https://github.com/0auBSQ/OpenTaiko/releases) numbered Pre v.0.5.3 and earlier. If no official release that includes this commit is available, an uncompiled version that does can be compiled (on a Windows machine or [a virtual machine](https://www.virtualbox.org/) running [Windows](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)) using [these steps](https://github.com/l1m0n3/OpenTaiko/wiki/How-to-build-OpenTaiko-without-using-Visual-Studio-%28on-Windows%29).
 - [The preconfigured version of TJAPlayer by Meowgister](https://tjadataba.se/tjap/).
+- Versions of [OpenTaiko](https://github.com/0auBSQ/OpenTaiko/blob/main/README-EN.md) that include [commit #140 ("Remove dependency on SlimDX")](https://github.com/0auBSQ/OpenTaiko/commit/c6d1b8f443cb6c82bf1df5d1140040fdcc32b2de). This commit is not included in [official releases](https://github.com/0auBSQ/OpenTaiko/releases) numbered Pre v.0.5.3 and earlier. If no official release that includes this commit is available, an uncompiled version that does can be compiled (on a Windows machine or [a virtual machine](https://www.virtualbox.org/) running [Windows](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)) using [these steps](https://github.com/l1m0n3/OpenTaiko/wiki/How-to-build-OpenTaiko-without-using-Visual-Studio-%28on-Windows%29). **HOWEVER, INPUT LAG APPEARS TO SERIOUSLY IMPACT GAMEPLAY IN THIS SIMULATOR AT THIS TIME.**
 
 The following steps must be done in order to run the above using Lutris:
 
@@ -26,7 +26,7 @@ The following steps must be done in order to run the above using Lutris:
 
 9. Under "Game Options", set:
 
-      a) Executable to "\~Home/Games/TJAPlayer3/game/OpenTaiko.exe" **or** "\~Home/Games/TJAPlayer3/game/TJAPlayer3.exe", depending on your choice of simulator,
+      a) Executable to "\~Home/Games/TJAPlayer3/game/TJAPlayer3.exe" **or** "\~Home/Games/TJAPlayer3/game/OpenTaiko.exe", depending on your choice of simulator,
 
       b) Wine prefix to "\~Home/Games/TJAPlayer3", and
 
